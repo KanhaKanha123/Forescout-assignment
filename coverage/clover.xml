@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1689192466158" clover="3.2.0">
+  <project timestamp="1689192466158" name="All files">
+    <metrics statements="158" coveredstatements="138" conditionals="36" coveredconditionals="21" methods="49" coveredmethods="45" elements="243" coveredelements="204" complexity="0" loc="158" ncloc="158" packages="23" files="38" classes="38"/>
+    <package name="src">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/App.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="config.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/config.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="react-app-env.d.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/react-app-env.d.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.api">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="axios-api.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/api/axios-api.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.blogs">
+      <metrics statements="57" coveredstatements="51" conditionals="12" coveredconditionals="8" methods="14" coveredmethods="11"/>
+      <file name="add-new-comments.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/blogs/add-new-comments.tsx">
+        <metrics statements="15" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+      </file>
+      <file name="blog-comment.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/blogs/blog-comment.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+      </file>
+      <file name="blog-comments.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/blogs/blog-comments.tsx">
+        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="blog-details.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/blogs/blog-details.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="4" methods="3" coveredmethods="1"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+      </file>
+      <file name="blogs-list.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/blogs/blogs-list.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="37" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="52" count="6" type="stmt"/>
+      </file>
+      <file name="common-types.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/blogs/common-types.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="style.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/blogs/style.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="37" count="7" type="stmt"/>
+        <line num="45" count="7" type="stmt"/>
+        <line num="53" count="7" type="stmt"/>
+        <line num="61" count="7" type="stmt"/>
+        <line num="69" count="7" type="stmt"/>
+        <line num="74" count="7" type="stmt"/>
+        <line num="79" count="7" type="stmt"/>
+        <line num="84" count="7" type="stmt"/>
+        <line num="91" count="7" type="stmt"/>
+        <line num="96" count="7" type="stmt"/>
+        <line num="100" count="7" type="stmt"/>
+        <line num="105" count="7" type="stmt"/>
+        <line num="110" count="7" type="stmt"/>
+        <line num="114" count="7" type="stmt"/>
+        <line num="121" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.blogs.tests.fixture">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="mock-data.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/blogs/tests/fixture/mock-data.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.header">
+      <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="header.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/header/header.tsx">
+        <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+      </file>
+      <file name="style.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/header/style.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.shared-comonents">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/shared-comonents/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.shared-comonents.handle-loading-empty-error-state">
+      <metrics statements="7" coveredstatements="5" conditionals="6" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="handle-loading-empty-error-state.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/shared-comonents/handle-loading-empty-error-state/handle-loading-empty-error-state.tsx">
+        <metrics statements="7" coveredstatements="5" conditionals="6" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="27" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.shared-comonents.pagination">
+      <metrics statements="9" coveredstatements="7" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <file name="pagination.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/shared-comonents/pagination/pagination.tsx">
+        <metrics statements="8" coveredstatements="6" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="22" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="2" type="stmt"/>
+      </file>
+      <file name="style.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/shared-comonents/pagination/style.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.shared-comonents.styled-components.button">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="button.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/shared-comonents/styled-components/button/button.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.shared-comonents.styled-components.card">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="5"/>
+      <file name="card.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/shared-comonents/styled-components/card/card.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="5"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="12" count="14" type="stmt"/>
+        <line num="13" count="14" type="stmt"/>
+        <line num="14" count="14" type="stmt"/>
+        <line num="17" count="14" type="cond" truecount="1" falsecount="1"/>
+        <line num="22" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.shared-comonents.styled-components.empty-or-error">
+      <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="empty-or-error.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/shared-comonents/styled-components/empty-or-error/empty-or-error.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="10" count="3" type="cond" truecount="1" falsecount="1"/>
+      </file>
+    </package>
+    <package name="src.components.shared-comonents.styled-components.loding">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="loading.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/components/shared-comonents/styled-components/loding/loading.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.custom-hooks">
+      <metrics statements="26" coveredstatements="19" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="8"/>
+      <file name="index.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/custom-hooks/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="use-get-blog-comments.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/custom-hooks/use-get-blog-comments.ts">
+        <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+      </file>
+      <file name="use-get-blogs.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/custom-hooks/use-get-blogs.ts">
+        <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+      </file>
+      <file name="use-get-single-blog.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/custom-hooks/use-get-single-blog.ts">
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+      </file>
+      <file name="use-get-user-data.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/custom-hooks/use-get-user-data.ts">
+        <metrics statements="7" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="26" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.error-boundry">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="error-boundary.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/error-boundry/error-boundary.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.helpers">
+      <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <file name="helper.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/helpers/helper.ts">
+        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="8" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/pages/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.pages.blog-details">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="blog-details-page.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/pages/blog-details/blog-details-page.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.home">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="home-page.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/pages/home/home-page.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+      </file>
+      <file name="style.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/pages/home/style.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.react-query">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="query-client.ts" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/react-query/query-client.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.router">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="router.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/router/router.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.store">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="context.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/store/context.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="16" count="18" type="stmt"/>
+        <line num="17" count="18" type="stmt"/>
+        <line num="19" count="18" type="stmt"/>
+        <line num="20" count="18" type="stmt"/>
+        <line num="22" count="18" type="stmt"/>
+        <line num="24" count="18" type="stmt"/>
+        <line num="42" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.test-utils">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="test-wrapper.tsx" path="/Users/kanhakamboj/Desktop/Desktop/Projects/Forescout-bloging-app/src/test-utils/test-wrapper.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="16" count="17" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
